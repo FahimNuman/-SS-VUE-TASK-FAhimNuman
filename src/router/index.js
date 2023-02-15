@@ -15,7 +15,7 @@ const routes = [
 ]
 
 const router = new VueRouter({
-  mode: "history", //html file history mode
+  mode: "history", 
   base: process.env.BASE_URL,
   routes
 })
