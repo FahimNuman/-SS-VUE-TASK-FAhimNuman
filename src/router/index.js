@@ -7,12 +7,12 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: () => import('../components/HomePage.vue'),
+    component: () => import('../components/FrontPage.vue'),
   },
   {
     path: "/addstaff",
     name: "addstaff",
-    component: () => import('../components/StaffManage.vue')
+    component: () => import('../components/AddStaff.vue')
   },
   {
     path: "/updatestaff/:index",
@@ -35,10 +35,9 @@ const routes = [
    
   },
   {
-    path: "/allemployee",
-    name: "allemployee",
-    component: () => import('../components/AllEmployee.vue'),
-   
+    path: "/frontpage",
+    name: "frontpage",
+    component: () => import('../components/FrontPage.vue')
   },
 
 ]
