@@ -2,7 +2,7 @@
   <v-card
     max-width="490"
     class="mx-auto"
-    color="#f74219"
+    color="#ff5447"
   >
   <v-layout row wrap mt-2>
       <v-flex class="text-sm-right pa-2" xs12 sm6>
@@ -42,6 +42,7 @@
                           <v-btn
                             v-bind:to="'/staffdetail/' + index"
                            v-if="findStaff==true"
+                           color="rgb(255,255,0)"
                           >
                           Details
                             <v-icon> mdi-chevron-right</v-icon>
