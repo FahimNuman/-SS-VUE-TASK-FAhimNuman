@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <v-container class="padding">
-      <v-layout>
+  <div >
+    <v-container  class="cld" >
+      <v-layout class="padding">
         <v-flex xs12 sm6 offset-sm3>
           <h2>Add Staff</h2>
         </v-flex>
@@ -142,7 +142,7 @@ export default {
 
 <style>
 .padding{
-background-color: rgb(255, 245, 245);
+background-color: rgb(105, 112, 163) ;
 padding-inline-end: 5%;
 border-block-end: 2cap;
 padding-inline-start: 5cap;
@@ -150,8 +150,16 @@ border: 5%;
 
 
 }
+.cld{
+  background-color: #f74219;
+  padding-block-start: 5%;
+  width:490%
+  
+    
+  
+}
   .btnInfo{
-  background-color: rgb(234, 235, 249) !important;
+  background-color: rgb(105, 112, 163) !important;
     }
   .btnInfo:hover{
   background-color: rgb(35, 40, 92) !important;

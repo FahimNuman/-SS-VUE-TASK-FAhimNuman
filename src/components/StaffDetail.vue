@@ -1,8 +1,8 @@
 <template>
-  <v-container>
+  <v-container >
     <v-layout col wrap ma-3 justify-content-center align-self-center >
-        <v-flex xs5 sm6 col>
-            <v-card>
+        <v-flex xs5 sm6 col >
+            <v-card color="#f74219">
               <v-layout>
                 <v-flex pa-5>
                   <v-img xs1 max-width="300px" :src="staff.image"></v-img>

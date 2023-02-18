@@ -1,14 +1,14 @@
 <template>
-    <div>
-      <v-container>
-        <v-layout>
+    <div >
+      <v-container class="cld" >
+        <v-layout >
           <v-flex xs12 sm6 offset-sm3>
-            <h2>Update Staff</h2>
+            <h2>Update Staff Info</h2>
           </v-flex>
         </v-layout>
-        <v-layout row>
+        <v-layout  row>
           <v-flex xs12 sm6 offset-sm3>
-            <form class="mt-6" >
+            <form class="mt-6"  >
               <v-layout col>
                 <v-flex xs12 >
                   <v-text-field
@@ -22,7 +22,7 @@
               </v-flex>
               <v-layout>
 
-                <v-btn @click="addName()" class="btnInfo">update Name</v-btn>
+                <v-btn @click="addName()" class="btnInfo">Name</v-btn>
               </v-layout>
               </v-layout>
               <v-layout col>
@@ -40,7 +40,7 @@
               </v-flex>
               <v-layout>
 
-              <v-btn @click="addEmail()" class="btnInfo"> update Email </v-btn>
+              <v-btn @click="addEmail()" class="btnInfo"> Email </v-btn>
               </v-layout>
               </v-layout>
               <v-layout col>
@@ -54,7 +54,7 @@
                 ></v-text-field>
               </v-flex>
                 <v-layout>
-                  <v-btn @click="addPhone()" class="btnInfo">update Number</v-btn>
+                  <v-btn @click="addPhone()" class="btnInfo">Number</v-btn>
                 </v-layout>
              
                 </v-layout> 
@@ -154,4 +154,7 @@
   </script>
   
   <style>
+  .cld{
+    background-color: #f74219;
+  }
   </style>

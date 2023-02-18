@@ -2,6 +2,7 @@
   <v-card
     max-width="490"
     class="mx-auto"
+    color="#f74219"
   >
   <v-layout row wrap mt-2>
       <v-flex class="text-sm-right pa-2" xs12 sm6>
@@ -13,7 +14,7 @@
       </v-flex>
     </v-layout>
 
-    <v-container>
+    <v-container >
       <v-flex xs12 sm6 offset-sm3>
           <h2 v-if="findStaff==true">Staff List</h2>
           <h2 v-else>Admin List</h2>
