@@ -10,10 +10,10 @@
                 
                 <v-flex class="text-left">
                   <v-card-title  ></v-card-title>
-                  <h3 class="white--text">Name: {{staff.name}}</h3>
+                  <h3 class="light--text">Name: {{staff.name}}</h3>
                   <v-card-text class="text-left">
-                    <h3 class="white--text">Email: {{staff.email}}</h3>
-                  <h3 class="white--text">Phone Number{{staff.phone}}</h3>
+                    <h3 class="light--text">Email: {{staff.email}}</h3>
+                  <h3 class="light--text">Phone Number{{staff.phone}}</h3>
                   </v-card-text>
                  
                 </v-flex>

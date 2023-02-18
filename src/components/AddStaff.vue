@@ -1,9 +1,9 @@
 <template>
   <div>
-    <v-container>
+    <v-container class="padding">
       <v-layout>
         <v-flex xs12 sm6 offset-sm3>
-          <h2>Add New Staff</h2>
+          <h2>Add Staff</h2>
         </v-flex>
       </v-layout>
       <v-layout row>
@@ -141,6 +141,15 @@ export default {
 </script>
 
 <style>
+.padding{
+background-color: rgb(255, 245, 245);
+padding-inline-end: 5%;
+border-block-end: 2cap;
+padding-inline-start: 5cap;
+border: 5%;
+
+
+}
   .btnInfo{
   background-color: rgb(234, 235, 249) !important;
     }
