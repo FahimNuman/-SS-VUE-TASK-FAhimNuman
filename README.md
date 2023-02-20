@@ -20,5 +20,10 @@ npm run build
 npm run lint
 ```
 
+### Live Site Link
+```
+https://legendary-blini-11aaed.netlify.app/
+```
+
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/)
